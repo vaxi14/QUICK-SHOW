@@ -24,7 +24,9 @@ const TrailersSection = () => {
         />
       </div>
 
-      {/* Optional clickable thumbnails to switch trailers */}
+      <div className='group grid grid-cols-2 gap-4 md:gap-8 mt-8 max-w-3xl mx-auto'>
+
+      </div>
       
     </div>
   );
