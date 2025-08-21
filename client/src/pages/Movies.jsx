@@ -2,8 +2,14 @@ import React from 'react'
 import { dummyShowsData } from '../assets/assets'
 
 const Movies = () => {
-  return (
-    <div>Movies</div>
+  return dummyShowsData.length > 0 ? (
+    <div>
+
+    </div>
+  ) : (
+    <div>
+      
+    </div>
   )
 }
 
