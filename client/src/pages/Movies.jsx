@@ -17,7 +17,7 @@ const Movies = () => {
     </div>
   ) : (
     <div>
-
+      <h1>No Movies available</h1>
     </div>
   )
 }
