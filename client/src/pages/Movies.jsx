@@ -17,7 +17,7 @@ const Movies = () => {
     </div>
   ) : (
     <div>
-      <h1>No Movies available</h1>
+      <h1 className='text-3xl font-bold text-center'>No Movies available</h1>
     </div>
   )
 }
