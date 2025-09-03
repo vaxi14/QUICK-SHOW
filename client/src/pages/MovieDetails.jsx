@@ -4,6 +4,9 @@ import { useParams } from 'react-router-dom'
 const MovieDetails = () => {
   const {id} = useParams();
   const [show, setShow] = useState(null);
+  const getShow = async()=>{
+    
+  }
   return (
     <div>
       
