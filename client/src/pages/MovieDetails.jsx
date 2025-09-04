@@ -7,6 +7,10 @@ const MovieDetails = () => {
   const [show, setShow] = useState(null);
   const getShow = async()=>{
     const show = dummyShowsData.find(show => show._id ===id)
+    setShow({
+      movie: show,
+      dateTime:
+    })
   }
   return (
     <div>
