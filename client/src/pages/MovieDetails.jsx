@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { dummyShowsData } from '../assets/assets';
+import { dummyDateTimeData, dummyShowsData } from '../assets/assets';
 
 const MovieDetails = () => {
   const {id} = useParams();
@@ -9,7 +9,7 @@ const MovieDetails = () => {
     const show = dummyShowsData.find(show => show._id ===id)
     setShow({
       movie: show,
-      dateTime:
+      dateTime: dummyDateTimeData
     })
   }
   return (
