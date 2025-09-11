@@ -12,6 +12,14 @@ const MovieDetails = () => {
       dateTime: dummyDateTimeData
     })
   }
+  useEffect(() => {
+    first
+  
+    return () => {
+      second
+    }
+  }, [third])
+  
   return (
     <div>
       
