@@ -18,7 +18,7 @@ const MovieDetails = () => {
     return () => {
       second
     }
-  }, [third])
+  }, [id])
   
   return (
     <div>
