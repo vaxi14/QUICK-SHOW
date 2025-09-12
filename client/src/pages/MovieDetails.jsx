@@ -13,6 +13,7 @@ const MovieDetails = () => {
     })
   }
   useEffect(() => {
+    getShow()
     first
   
     return show ? () => {
