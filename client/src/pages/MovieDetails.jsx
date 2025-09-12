@@ -15,7 +15,7 @@ const MovieDetails = () => {
   useEffect(() => {
     first
   
-    return () => {
+    return show ? () => {
       second
     }
   }, [id])
