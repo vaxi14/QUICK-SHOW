@@ -15,17 +15,13 @@ const MovieDetails = () => {
   useEffect(() => {
     getShow()
     first
-  
+  }, [id])
     return show ? () => {
       second
     }
-  }, [id])
   
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  
+  
+
 
 export default MovieDetails
