@@ -14,11 +14,14 @@ const MovieDetails = () => {
   }
   useEffect(() => {
     getShow()
-    first
   }, [id])
-    return show ? () => {
-      second
-    }
+    return show ? (  
+      <div>
+
+      </div>
+    )
+    : <div>Loading...</div>
+  } 
   
   
   
